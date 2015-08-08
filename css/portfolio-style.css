@@ -1,0 +1,87 @@
+body {
+  /*Typography Declarations */
+  
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif
+}
+@media only screen and (max-width: 500px) {.masthead {padding: 3em 0}
+  .masthead-heading .masthead-intro {font-size: 3em}}
+.masthead {
+  background: url('http://i.imgur.com/yyXtHxCh.jpg?1');
+  padding: 4em;
+  border-top: solid 1em #eecd33;
+  background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: white
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer,
+.footer-list {
+  text-align: center;
+  padding: 0.2em
+}
+
+.masthead-intro {
+  margin: 1em 0;
+  color: white;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3em
+}
+
+
+.intro,
+.wherefrom,
+.aboutme {
+  max-width: 32em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.content-footer {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.footer-list > li {
+  display: inline-block;
+}
+
+.content-footer {
+  background: url('http://i.imgur.com/OEgGAj0h.jpg?1') ;
+  padding: 7em;
+ background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+  border-bottom: solid 1em #eecd33;
+}
+
+.content-footer > p {
+  color: white
+}
