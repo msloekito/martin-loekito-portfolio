@@ -462,7 +462,7 @@ text-align: center;
 width: 2rem;
 padding: 1rem;
 }
-
+/*why do I need to break them down one by one to apply these changes?*/
 
 .navbarlist > a { display:block;
 text-align: center;
@@ -486,7 +486,9 @@ text-align: center;
 }
 /*changing font of masthead heading, still need to figure out how to bring it up not so close to bottom margin*/
 
-.minister, .web-developer, .photographer{text-decoration: none; color: white; }
+.minister, .web-developer, .photographer{text-decoration: none; 
+  color: white;
+  padding-bottom: 2em  }
 
 .masthead-intro,
 .masthead-heading,
@@ -507,16 +509,52 @@ text-align: center;
   margin-top: 4em;
   font-size: 1.5em;
 }
+
+.nytimesimg, .nytimes-caption-header, .nytimes-caption {max-width: 32em;
+ margin-left: auto;
+margin-right: auto}
+
+.nytimes-caption-header, .nytimes-caption {display: block;
+margin-left: 2em }
+.nytimes-caption {font-size: 1.5rem}
+
+.nytimesimg {vertical-align: text-top;
+ display: inline-block;
+float: left;
+position: relative;
+padding-right: 2em;
+padding-left: 9em;
+padding-top: 1em;
+}
+
+.karmaproject, .karma-caption-header, .karma-caption {
+  max-width: 32em;
+  margin-left: auto;
+  margin-right: auto }
+
+  .karma-caption-header, .karma-caption {display: block;
+    position: relative; margin-left: -4em}
+  .karma-caption {font-size: 1.5rem}
+
+  .karmaimg {vertical-align: text-top;
+ display: inline-block;
+float: right;
+position: relative;
+padding-left: 2em;
+padding-top: 1em;
+}
+
+/** beginning of footer**/
+
 .content-footer {
   max-width: 60em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
 }
-
 .content-footer {
   background-color: #3399FF;
-  padding: 7em;
+  padding: 4em;
  background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
