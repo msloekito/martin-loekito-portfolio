@@ -428,16 +428,18 @@ th {
 
 /*end of Normalize*/
 
-body {
+body {display: flex;
+
+
   /*Typography Declarations */
-  
   color: #222222;
   font-size: 1em;
   font-family: "Josefin Sans" "Open Sans", "Helvetica Neue", sans-serif
 }
-@media only screen and (max-width: 500px) {.masthead {padding: 3em 0}
-  .masthead-heading, .masthead-intro, .content-footer, .footer-heading {font-size: 3em}}
 
+/*@media only screen and (max-width: 500px) {.masthead {padding: 3em 0}
+  .masthead-heading, .masthead-intro, .content-footer, .footer-heading {font-size: 3em}}
+*/
 .masthead {
   background-color: #3399FF;
   border-top: solid 1em #70B8FF;
@@ -449,7 +451,8 @@ background-size:cover;
 background-position:center;
 }
 
-.navbarlist > li {list-style-type: none;
+.navbarlist > li {
+  list-style-type: none;
  float: right;
 margin-top: 1rem;
 }
@@ -474,6 +477,7 @@ text-align: center;
   font-size: 7em;
   color: white;
   margin-bottom: 2em; 
+  text-align: center;
 }
 /*changing font of masthead-intro*/
 
@@ -483,12 +487,15 @@ text-align: center;
   font-size: 2em;
   letter-spacing: -0.05em ;
   color: white;
+  text-align: center;
 }
 /*changing font of masthead heading, still need to figure out how to bring it up not so close to bottom margin*/
 
-.minister, .web-developer, .photographer{text-decoration: none; 
+.minister, .web-developer, .photographer{
+  text-decoration: none; 
   color: white;
-  padding-bottom: 2em  }
+  padding-bottom: 2em;  
+}
 
 .masthead-intro,
 .masthead-heading,
@@ -503,22 +510,26 @@ text-align: center;
 .wherefrom,
 .aboutme, 
 .projects {
-  max-width: 32em;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 4em;
   font-size: 1.5em;
+   width: 70%;
+  margin:0 auto;
 }
 
 .nytimesimg, .nytimes-caption-header, .nytimes-caption {max-width: 32em;
  margin-left: auto;
-margin-right: auto}
+margin-right: auto;
+}
 
 .nytimes-caption-header, .nytimes-caption {display: block;
-margin-left: 2em }
-.nytimes-caption {font-size: 1.5rem}
+margin-left: 2em;
+}
+.nytimes-caption {
+  font-size: 1.5rem
+}
 
-.nytimesimg {vertical-align: text-top;
+.nytimesimg {
+  vertical-align: text-top;
  display: inline-block;
 float: left;
 position: relative;
@@ -530,15 +541,22 @@ padding-top: 1em;
 .karmaproject, .karma-caption-header, .karma-caption {
   max-width: 32em;
   margin-left: auto;
-  margin-right: auto }
+  margin-right: auto; }
 
-  .karma-caption-header, .karma-caption {display: block;
-    position: relative; margin-left: -4em}
-  .karma-caption {font-size: 1.5rem}
+  .karma-caption-header, .karma-caption 
+  {
+    display: block;
+    position: relative; margin-left: -4em;
+  }
+  
+  .karma-caption {
+    font-size: 1.5rem;
+  }
 
-  .karmaimg {vertical-align: text-top;
+  .karmaimg {
+    vertical-align: text-top;
  display: inline-block;
-float: right;
+vertical-align: right;
 position: relative;
 padding-left: 2em;
 padding-top: 1em;
@@ -552,6 +570,7 @@ padding-top: 1em;
   margin-right: auto;
   margin-top: 2em;
 }
+
 .content-footer {
   background-color: #3399FF;
   padding: 4em;
@@ -565,8 +584,26 @@ background-position:center;
 }
 
 .content-footer > p {
-  color: white
+  color: white;
 }
 
-.footer-list {list-style-type: none; vertical-align: left}
+.footer-list {
+  list-style-type: none;
 }
+
+.content-footer {
+  text-align: center;
+}
+
+.facebook, .github, .linkedin {text-decoration: none;
+  color: white;
+  width: 150px;
+  text-align: left;
+  display: block;
+  margin: auto;
+
+}
+
+.facebooka, .githuba, .linkedina {
+  text-decoration: none;
+color: white;}
