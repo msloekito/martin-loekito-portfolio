@@ -516,16 +516,17 @@ text-align: center;
   margin:0 auto;
 }
 
-.nytimesimg, .nytimes-caption-header, .nytimes-caption {max-width: 32em;
+.nytimesimg, .nytimes-caption-header, .nytimes-caption {
  margin-left: auto;
 margin-right: auto;
 }
 
 .nytimes-caption-header, .nytimes-caption {display: block;
-margin-left: 2em;
+margin-left: 1em;
 }
 .nytimes-caption {
-  font-size: 1.5rem
+  font-size: 1.5rem;
+  margin-right: 15%;
 }
 
 .nytimesimg {
@@ -534,29 +535,30 @@ margin-left: 2em;
 float: left;
 position: relative;
 padding-right: 2em;
-padding-left: 9em;
+margin-left: 15%;
 padding-top: 1em;
 }
 
-.karmaproject, .karma-caption-header, .karma-caption {
-  max-width: 32em;
-  margin-left: auto;
-  margin-right: auto; }
+.karmaproject {
+  padding-top: 3em;
+}
 
-  .karma-caption-header, .karma-caption 
-  {
-    display: block;
-    position: relative; margin-left: -4em;
+.karma-caption-header, .karma-caption {
+  display: block;
+  position: relative;
+  margin-left: 15%;
+  text-align: left;
   }
   
-  .karma-caption {
+.karma-caption {
     font-size: 1.5rem;
   }
 
-  .karmaimg {
+.karmaimg {
     vertical-align: text-top;
  display: inline-block;
-vertical-align: right;
+ float: right;
+ margin-right: 15%;
 position: relative;
 padding-left: 2em;
 padding-top: 1em;
