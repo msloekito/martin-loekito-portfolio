@@ -493,8 +493,7 @@ text-align: center;
 
 .minister, .web-developer, .photographer{
   text-decoration: none; 
-  color: white;
-  padding-bottom: 2em;  
+  color: white;  
 }
 
 .masthead-intro,
@@ -522,7 +521,9 @@ margin-right: auto;
 }
 
 .nytimes-caption-header, .nytimes-caption {display: block;
-margin-left: 1em;
+margin-left: 40%;
+margin-right: 15%;
+border: solid 1px black;
 }
 .nytimes-caption {
   font-size: 1.5rem;
@@ -537,6 +538,8 @@ position: relative;
 padding-right: 2em;
 margin-left: 15%;
 padding-top: 1em;
+width: 20%;
+height: 20%;
 }
 
 .karmaproject {
@@ -547,7 +550,9 @@ padding-top: 1em;
   display: block;
   position: relative;
   margin-left: 15%;
+  margin-right: 40%;
   text-align: left;
+  border: solid 1px black;
   }
   
 .karma-caption {
@@ -559,6 +564,7 @@ padding-top: 1em;
  display: inline-block;
  float: right;
  margin-right: 15%;
+ width:20%;
 position: relative;
 padding-left: 2em;
 padding-top: 1em;
@@ -567,7 +573,6 @@ padding-top: 1em;
 /** beginning of footer**/
 
 .content-footer {
-  max-width: 60em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
@@ -597,8 +602,7 @@ background-position:center;
   text-align: center;
 }
 
-.facebook, .github, .linkedin {text-decoration: none;
-  color: white;
+.facebook, .github, .linkedin {
   width: 150px;
   text-align: left;
   display: block;
@@ -609,3 +613,15 @@ background-position:center;
 .facebooka, .githuba, .linkedina {
   text-decoration: none;
 color: white;}
+.footer-caption {
+  text-decoration: none;
+color: white;
+list-style: none;
+display: inline;
+width: 100%;
+}
+.facebookb, .githubb, .linkedinb {
+  border: solid black 1px;
+  width: 33.3333333%;
+  display: inline-block;
+}
